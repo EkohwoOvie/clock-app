@@ -86,9 +86,9 @@ const resetTime = () => {
 
   return (
     <div className="center-align">
-      <h1>25 - 5 Clock</h1>
+      <h1>25 + 5 Clock</h1>
       <div className="dual-container">
-      <Length 
+      <Length
       title={'break length'} 
       changeTime={changeTime} 
       type={'break'} 

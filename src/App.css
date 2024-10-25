@@ -26,6 +26,9 @@ body{
     justify-items: center;
     align-items: center;
 }
+#hidden{
+    background: #333;
+}
 @media (max-width:700px){
     .dual-container{
         margin-left: 0px;
