@@ -1,0 +1,39 @@
+
+body{ 
+    color: white;
+    background-color: darkolivegreen;
+  }
+  .App{
+    align-items: center;
+    background-color: #484646;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    background-color: #333;
+    
+}
+.time-sets{
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    justify-items: center;
+    align-items: center;
+}
+@media (max-width:700px){
+    .dual-container{
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
